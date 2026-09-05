@@ -139,6 +139,19 @@ All visualizations were created using Python visualization libraries.
 - GitHub
 
 ---
+## Conclusion
+
+This project successfully collected, cleaned, preprocessed, and analyzed an agricultural crop yield dataset. A systematic data-quality assessment was performed to identify missing values, duplicate records, negative values, inconsistent zero values, and statistical outliers.
+After the cleaning process, the final dataset contained 19,685 records and 10 features, with no missing values, duplicate rows, or negative values. The analysis also explored crop-wise, state-wise, and season-wise agricultural patterns using statistical summaries and visualizations.
+The findings provide useful insights into crop yield, production, rainfall, and agricultural resource usage. The cleaned dataset can serve as a reliable foundation for future machine learning applications such as crop-yield prediction, production forecasting, and agricultural decision-support systems.
+---
+
+## Author
+
+**Sameer KB**
+
+Machine Learning Data Analyst – Agribusiness Intern
+
 
 ## Project Structure
 
@@ -170,20 +183,3 @@ ML_Week1/
 │
 ├── README.md
 └── requirements.txt
-
----
-
-## Conclusion
-
-This project successfully collected, cleaned, preprocessed, and analyzed an agricultural crop yield dataset. A systematic data-quality assessment was performed to identify missing values, duplicate records, negative values, inconsistent zero values, and statistical outliers.
-After the cleaning process, the final dataset contained 19,685 records and 10 features, with no missing values, duplicate rows, or negative values. The analysis also explored crop-wise, state-wise, and season-wise agricultural patterns using statistical summaries and visualizations.
-The findings provide useful insights into crop yield, production, rainfall, and agricultural resource usage. The cleaned dataset can serve as a reliable foundation for future machine learning applications such as crop-yield prediction, production forecasting, and agricultural decision-support systems.
----
-
-## Author
-
-**Sameer KB**
-
-Machine Learning Data Analyst – Agribusiness Intern
-
-
