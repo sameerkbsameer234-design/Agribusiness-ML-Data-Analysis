@@ -1,0 +1,233 @@
+Crop,Season,Record_Count,Average_Yield,Total_Production,Total_Area,Average_Rainfall
+Arecanut,Kharif     ,20,2.25,26128,6085.0,1277.23
+Arecanut,Rabi       ,16,1.07,745051,775043.0,2832.67
+Arecanut,Whole Year ,126,2.17,38373082,7994204.86,2152.79
+Arhar/Tur,Autumn     ,1,0.2,6487,25621.0,1496.6
+Arhar/Tur,Kharif     ,418,0.81,59837645,81105359.86,1387.29
+Arhar/Tur,Rabi       ,69,0.93,595223,474860.99,1337.67
+Arhar/Tur,Summer     ,1,0.22,16414,86559.0,1496.6
+Arhar/Tur,Whole Year ,16,1.1,432556,543279.0,1958.76
+Arhar/Tur,Winter     ,3,23.19,25508,117893.14,1262.63
+Bajra,Kharif     ,389,1.12,104011339,87391208.6,1055.88
+Bajra,Rabi       ,58,1.29,568848,402129.0,1041.68
+Bajra,Summer     ,52,1.84,12477247,5115244.0,1061.59
+Bajra,Whole Year ,25,26.64,1079613,449522.0,1212.62
+Banana,Autumn     ,1,12.72,16460,1280.0,1855.0
+Banana,Kharif     ,32,23.32,1684729,97907.0,2153.88
+Banana,Rabi       ,1,12.89,8490,660.0,1855.0
+Banana,Summer     ,13,40.0,10730117,235580.0,909.44
+Banana,Whole Year ,197,26.77,214020093,6791159.69,1698.63
+Banana,Winter     ,1,12.88,12090,940.0,1855.0
+Barley,Kharif     ,47,1.56,1591377,657777.0,895.58
+Barley,Rabi       ,248,1.6,17804616,8531126.39,1220.25
+Barley,Whole Year ,2,1.63,102694,81181.0,1378.5
+Black pepper,Kharif     ,13,0.89,1041,3953.0,1411.98
+Black pepper,Rabi       ,6,0.72,4298,6003.0,4131.33
+Black pepper,Whole Year ,107,0.83,2090311,4352270.11,2120.15
+Cardamom,Kharif     ,3,0.82,1690,1900.0,1557.47
+Cardamom,Whole Year ,71,0.14,253807,1306305.874,1708.86
+Cashewnut,Kharif     ,27,0.56,514264,940787.0,1175.39
+Cashewnut,Rabi       ,5,1.46,77785,51352.0,4334.74
+Cashewnut,Whole Year ,102,3.88,3145158,6566539.46,2024.62
+Castor seed,Kharif     ,255,0.7,23328783,16121359.0,1340.26
+Castor seed,Rabi       ,36,0.68,36393,66211.0,1749.33
+Castor seed,Whole Year ,9,0.57,684035,408749.0,1076.11
+Coconut ,Kharif     ,2,1.3,40,92.0,1881.05
+Coconut ,Whole Year ,170,8753.77,308751970238,38453371.88,1792.21
+Coriander,Kharif     ,11,0.6,1235,1964.0,988.37
+Coriander,Rabi       ,50,0.52,118262,223207.0,1056.23
+Coriander,Whole Year ,138,0.7,3122999,4295662.67,1160.1
+Cotton(lint),Autumn     ,1,0.67,20,30.0,1855.0
+Cotton(lint),Kharif     ,406,1.59,444923914,214060086.0,1475.98
+Cotton(lint),Rabi       ,27,1.84,1577839,932078.0,1129.28
+Cotton(lint),Summer     ,14,1.41,19531,7940.0,1286.34
+Cotton(lint),Whole Year ,27,5.09,11310100,6009887.4,1401.17
+Cotton(lint),Winter     ,1,0.33,10,30.0,1855.0
+Cowpea(Lobia),Kharif     ,70,0.8,473921,911305.7,1469.58
+Cowpea(Lobia),Rabi       ,53,0.95,244166,347764.0,1710.01
+Cowpea(Lobia),Summer     ,8,0.27,14486,47942.0,1194.44
+Cowpea(Lobia),Whole Year ,3,0.0,0,2864.0,2829.8
+Dry chillies,Autumn     ,3,0.7,30790,36837.0,1934.07
+Dry chillies,Kharif     ,101,1.99,15712890,5636475.0,1116.26
+Dry chillies,Rabi       ,63,3.4,3650221,1287819.0,1199.14
+Dry chillies,Summer     ,25,4.09,213976,75873.0,1316.11
+Dry chillies,Whole Year ,226,1.55,6400541,5548822.44,1644.77
+Dry chillies,Winter     ,1,0.6,1420,2360.0,1855.0
+Garlic,Kharif     ,9,3.1,58753,5807.0,1283.49
+Garlic,Rabi       ,48,2.53,2517863,515328.0,1076.07
+Garlic,Whole Year ,193,5.11,16222235,2372037.11,1251.91
+Ginger,Autumn     ,1,1.62,590,360.0,1855.0
+Ginger,Kharif     ,165,5.7,3985283,676219.0,1591.99
+Ginger,Rabi       ,12,3.93,528,110.0,1035.55
+Ginger,Summer     ,2,1.89,930,560.0,1694.28
+Ginger,Whole Year ,142,7.65,13694150,1134341.45,1668.4
+Ginger,Winter     ,1,1.59,360,220.0,1855.0
+Gram,Kharif     ,19,0.75,420357,1025431.0,1086.28
+Gram,Rabi       ,462,0.89,130648535,141411957.54,1306.32
+Gram,Whole Year ,9,0.65,3247931,3053539.86,1422.88
+Groundnut,Autumn     ,29,0.99,457260,490891.0,1535.44
+Groundnut,Kharif     ,423,1.17,116038510,104491241.0,1320.14
+Groundnut,Rabi       ,133,1.86,17439285,9662944.0,1696.41
+Groundnut,Summer     ,104,1.61,10124716,6590062.0,1262.03
+Groundnut,Whole Year ,18,1.48,4504982,2368971.3,2039.98
+Groundnut,Winter     ,18,1.14,61572,54142.0,1463.88
+Guar seed,Kharif     ,32,0.83,925271,1125173.0,669.3
+Guar seed,Rabi       ,2,0.95,80,48.0,894.6
+Guar seed,Whole Year ,29,1.08,6302176,4989703.0,701.73
+Horse-gram,Kharif     ,215,0.51,2574543,5753541.0,1098.86
+Horse-gram,Rabi       ,111,0.44,2259682,5147486.0,1193.74
+Horse-gram,Summer     ,18,0.29,1093,4256.0,1463.88
+Horse-gram,Whole Year ,8,0.31,133937,265316.0,1692.68
+Horse-gram,Winter     ,18,0.33,307527,1013650.0,1463.88
+Jowar,Autumn     ,8,0.42,175,377.0,1654.29
+Jowar,Kharif     ,329,0.98,71455394,62352096.0,1117.57
+Jowar,Rabi       ,126,1.16,69187356,100932366.0,1022.17
+Jowar,Summer     ,30,1.93,266332,144899.0,1227.83
+Jowar,Whole Year ,20,0.94,1006178,1106017.0,1897.84
+Jute,Autumn     ,19,4.91,445816,133763.0,1484.47
+Jute,Kharif     ,159,7.96,229942681,18006066.0,1970.87
+Jute,Rabi       ,2,3.53,35304,4311.0,1885.95
+Jute,Summer     ,1,2.0,20,10.0,1855.0
+Khesari,Kharif     ,1,0.87,507,584.0,1629.1
+Khesari,Rabi       ,73,0.79,7074827,9919498.0,1370.0
+Khesari,Whole Year ,1,0.65,40118,53778.0,904.1
+Linseed,Kharif     ,11,0.4,994,2351.0,1708.7
+Linseed,Rabi       ,295,0.48,3133805,7639152.0,1422.74
+Linseed,Whole Year ,2,0.47,52773,123452.0,1378.5
+Maize,Autumn     ,61,18.06,14127734,6683939.21,1355.93
+Maize,Kharif     ,514,2.27,280195725,123000023.2,1470.69
+Maize,Rabi       ,218,3.06,87962690,19398509.2,1322.88
+Maize,Summer     ,143,2.3,22660498,6503079.0,1211.14
+Maize,Whole Year ,21,2.22,5907885,2278099.986,2239.17
+Maize,Winter     ,18,1.78,56649,24680.0,1463.88
+Masoor,Kharif     ,17,0.76,307422,566164.0,1147.89
+Masoor,Rabi       ,305,0.7,19145089,25228929.8,1379.01
+Masoor,Whole Year ,1,0.49,272042,519238.0,904.1
+Mesta,Kharif     ,186,5.75,14029827,1837451.0,1804.73
+Mesta,Rabi       ,5,8.3,2952,374.0,957.14
+Mesta,Whole Year ,19,1.12,20023,16306.0,1602.86
+Moong(Green Gram),Autumn     ,17,0.27,102471,377326.0,1461.96
+Moong(Green Gram),Kharif     ,380,0.54,14035646,35385964.5,1174.39
+Moong(Green Gram),Rabi       ,188,0.53,3088686,6059528.77,1449.89
+Moong(Green Gram),Summer     ,124,0.57,4562542,7822746.0,1281.48
+Moong(Green Gram),Whole Year ,14,0.46,338244,809942.0,1869.18
+Moong(Green Gram),Winter     ,17,0.29,362900,1483607.0,1461.96
+Moth,Kharif     ,104,0.43,897674,1797550.0,915.87
+Moth,Rabi       ,5,0.81,15992,16684.0,1697.36
+Moth,Whole Year ,1,0.45,84,204.0,883.4
+Niger seed,Kharif     ,164,0.41,1664756,5774944.0,1370.46
+Niger seed,Rabi       ,20,0.56,38920370,51279889.0,1267.53
+Niger seed,Whole Year ,3,0.38,29656,112058.0,1602.8
+Niger seed,Winter     ,5,0.24,26271,100095.0,1476.18
+Oilseeds total,Kharif     ,5,5.93,12076047,4488352.0,963.72
+Oilseeds total,Rabi       ,4,1.68,872496,518054.0,969.48
+Oilseeds total,Whole Year ,20,1.08,4586895,3564684.0,2414.57
+Onion,Autumn     ,1,2.0,120,60.0,1855.0
+Onion,Kharif     ,69,18.42,22961815,2730225.0,1096.59
+Onion,Rabi       ,141,13.61,28426207,1461043.47,1265.38
+Onion,Summer     ,51,12.92,5220347,337807.0,1089.76
+Onion,Whole Year ,191,11.32,65092416,4337975.9,1260.07
+Onion,Winter     ,1,2.0,40,20.0,1855.0
+Other  Rabi pulses,Rabi       ,349,0.78,6437719,11153114.1,1611.63
+Other  Rabi pulses,Summer     ,6,0.99,47,50.0,1467.02
+Other Cereals,Kharif     ,77,0.81,1008822,1274796.0,1392.19
+Other Cereals,Rabi       ,65,0.89,511168,496317.0,1324.8
+Other Cereals,Summer     ,4,1.01,141869,120122.0,1305.95
+Other Kharif pulses,Kharif     ,378,0.69,5246371,12087737.826,1529.62
+Other Kharif pulses,Rabi       ,4,1.18,42,38.0,1236.52
+Other Summer Pulses,Summer     ,10,0.86,8394,19120.0,1416.23
+Peas & beans (Pulses),Autumn     ,1,0.43,430,850.0,1855.0
+Peas & beans (Pulses),Kharif     ,77,2.4,1160752,247065.9,1423.74
+Peas & beans (Pulses),Rabi       ,282,1.03,12409996,11987949.5,1413.56
+Peas & beans (Pulses),Summer     ,5,6.06,41398,5633.0,1385.74
+Peas & beans (Pulses),Whole Year ,3,2.72,697613,609115.0,930.13
+Peas & beans (Pulses),Winter     ,1,0.52,320,630.0,1855.0
+Potato,Autumn     ,1,5.21,1670,320.0,1855.0
+Potato,Kharif     ,113,9.26,6804795,889077.0,1379.6
+Potato,Rabi       ,163,13.08,350987495,14372926.39,1295.59
+Potato,Summer     ,35,12.43,1453342,120765.0,1921.55
+Potato,Whole Year ,272,15.9,248671011,14658180.42,1541.23
+Potato,Winter     ,44,9.79,21769722,1364956.93,1766.62
+Ragi,Autumn     ,44,0.72,724201,896082.19,1429.2
+Ragi,Kharif     ,289,1.11,39607173,27217691.5,1363.23
+Ragi,Rabi       ,78,1.77,2349777,1459331.0,1094.77
+Ragi,Summer     ,53,1.55,353346,194620.0,1323.31
+Ragi,Whole Year ,16,1.32,741494,458862.2,2100.18
+Ragi,Winter     ,18,0.58,439969,650837.0,1463.88
+Rapeseed &Mustard,Kharif     ,23,0.52,10429,37285.0,1606.53
+Rapeseed &Mustard,Rabi       ,480,0.83,77035004,70712652.81,1472.02
+Rapeseed &Mustard,Whole Year ,7,0.37,1056207,1097535.0,1137.09
+Rapeseed &Mustard,Winter     ,18,0.22,47274,213976.0,1483.79
+Rice,Autumn     ,158,1.64,68261883,49324483.09,2025.5
+Rice,Kharif     ,505,2.18,1321613030,568038479.7,1457.88
+Rice,Rabi       ,139,2.69,119631745,32866016.0,1909.45
+Rice,Summer     ,244,2.56,170784807,65722274.92,1532.93
+Rice,Whole Year ,4,1.53,2616273,2390245.0,1605.65
+Rice,Winter     ,147,1.99,546393442,273516576.56,2007.85
+Safflower,Kharif     ,11,0.66,1300,1578.0,1259.46
+Safflower,Rabi       ,156,0.56,3237368,5713127.0,1190.85
+Safflower,Whole Year ,2,0.3,3122,11209.0,1378.5
+Sannhamp,Autumn     ,1,5.42,7810,1448.0,2318.1
+Sannhamp,Kharif     ,76,1.43,149953,105374.0,1153.1
+Sannhamp,Rabi       ,2,1.8,298,1240.0,1608.65
+Sannhamp,Whole Year ,81,1.07,261826,182365.0,1118.31
+Sesamum,Autumn     ,34,0.43,25358,87404.0,1585.22
+Sesamum,Kharif     ,437,0.45,6571516,19407988.67,1419.86
+Sesamum,Rabi       ,81,0.89,594748,1505026.0,1329.84
+Sesamum,Summer     ,60,1.7,3034450,3513254.0,1404.83
+Sesamum,Whole Year ,38,0.53,3208158,5924816.397,1553.93
+Sesamum,Winter     ,35,0.41,108739,470311.0,1602.43
+Small millets,Autumn     ,8,0.6,5456,9375.0,1759.78
+Small millets,Kharif     ,355,0.74,8251755,16427658.0,1521.08
+Small millets,Rabi       ,101,0.87,5002320,4832325.0,1457.63
+Small millets,Summer     ,9,1.01,10335,12801.0,783.89
+Small millets,Whole Year ,12,0.74,159389,366469.01,2068.9
+Soyabean,Autumn     ,1,1.14,320,270.0,1855.0
+Soyabean,Kharif     ,326,1.07,185238191,180638269.0,1604.85
+Soyabean,Rabi       ,16,1.32,2010,1795.0,1346.68
+Soyabean,Whole Year ,5,1.27,6419043,5439864.0,2399.28
+Soyabean,Winter     ,1,1.26,100,80.0,1855.0
+Sugarcane,Autumn     ,1,32.66,12410,380.0,1855.0
+Sugarcane,Kharif     ,70,61.88,2351550089,36102609.0,1188.03
+Sugarcane,Rabi       ,5,19.8,27716,1461.0,1754.5
+Sugarcane,Summer     ,2,32.82,4900,150.0,1694.28
+Sugarcane,Whole Year ,507,50.54,4868533298,66411263.284,1611.42
+Sugarcane,Winter     ,20,57.01,16408342,261935.0,1484.46
+Sunflower,Kharif     ,220,0.89,6092437,11253416.0,1261.95
+Sunflower,Rabi       ,137,0.95,6106677,11879993.0,1090.39
+Sunflower,Summer     ,63,1.08,745622,836081.0,1074.59
+Sunflower,Whole Year ,21,0.9,1699902,2168710.0,1189.55
+Sweet potato,Autumn     ,1,3.6,180,50.0,1855.0
+Sweet potato,Kharif     ,59,9.34,3920337,376851.0,1673.34
+Sweet potato,Rabi       ,27,9.75,224937,27637.0,1222.89
+Sweet potato,Whole Year ,185,9.2,6264056,786380.68,1630.3
+Sweet potato,Winter     ,1,3.0,30,10.0,1855.0
+Tapioca,Autumn     ,1,4.33,130,30.0,1855.0
+Tapioca,Kharif     ,63,14.77,2092550,163237.0,2036.09
+Tapioca,Rabi       ,20,19.38,9408,618.0,1260.91
+Tapioca,Whole Year ,117,17.33,128782605,4180595.81,1978.42
+Tobacco,Kharif     ,40,3.98,3114874,1038532.3,1094.27
+Tobacco,Rabi       ,57,3.2,5754342,2230864.0,1552.59
+Tobacco,Summer     ,13,2.67,21684,8134.0,745.96
+Tobacco,Whole Year ,252,1.55,12192819,6325270.28,1625.11
+Turmeric,Autumn     ,1,0.83,70,100.0,1855.0
+Turmeric,Kharif     ,46,2.21,2111330,407033.0,1260.41
+Turmeric,Rabi       ,29,2.28,68165,23607.0,1016.58
+Turmeric,Summer     ,1,0.67,20,30.0,1533.56
+Turmeric,Whole Year ,259,3.67,7509329,2291923.02,1763.9
+Turmeric,Winter     ,1,0.5,20,40.0,1855.0
+Urad,Autumn     ,20,0.37,178810,555094.0,1436.59
+Urad,Kharif     ,403,0.6,24328728,50358456.0,1243.52
+Urad,Rabi       ,202,0.6,8966362,13189220.0,1479.34
+Urad,Summer     ,82,0.59,768005,1225838.0,1200.0
+Urad,Whole Year ,8,0.35,583544,1391227.0,1692.68
+Urad,Winter     ,18,0.31,443115,1384150.0,1463.88
+Wheat,Kharif     ,5,0.42,72,470.0,1095.92
+Wheat,Rabi       ,514,2.05,1801793158,597754733.05,1437.82
+Wheat,Summer     ,17,1.44,53368,37120.0,1461.96
+Wheat,Whole Year ,8,1.48,8865390,4459003.4,2554.88
+Wheat,Winter     ,1,1.44,42516,23515.0,1156.6
+other oilseeds,Kharif     ,60,2.85,9930075,713026.0,1506.99
+other oilseeds,Rabi       ,52,0.79,54835,83671.0,1302.49
+other oilseeds,Summer     ,5,0.76,1320,2568.0,1219.9
+other oilseeds,Whole Year ,9,1.05,46943,79378.0,2657.44

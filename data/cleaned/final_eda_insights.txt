@@ -1,0 +1,9 @@
+1. Dataset contains 19,685 records covering 55 crops, 30 states and 6 seasons from 1997 to 2020.
+2. Coconut  recorded the highest average yield among crops (8,652.00).
+3. Coconut  recorded the highest total production (308,751,970,278.00).
+4. Goa recorded the highest average yield among states (354.78).
+5. Kerala recorded the highest total production among states (129,700,649,853.00).
+6. Whole Year  recorded the highest average yield among seasons (413.00).
+7. Whole Year  recorded the highest total production among seasons (314,452,748,974.00).
+8. Production showed the strongest positive correlation with Yield (0.5708).
+9. IQR-based outlier analysis identified extreme observations in several agricultural variables. These observations were retained because extreme values can represent genuine differences in crop area, production, rainfall or input usage.
