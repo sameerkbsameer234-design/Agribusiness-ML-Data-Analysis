@@ -1,319 +1,231 @@
-# Agricultural Crop Yield Analysis in Indian States
+# Agribusiness ML & Data Analysis
 
-## Machine Learning Data Analyst – Agribusiness Internship
+## Agricultural Crop Yield Prediction Using Machine Learning
 
-### Week 1: Data Collection & Cleaning
-### Week 2: Exploratory Data Analysis (EDA)
+This project focuses on analyzing agricultural crop data from Indian states and developing a machine learning model to predict crop yield.
 
----
-
-## 📌 Project Overview
-
-This project focuses on analyzing agricultural crop-yield data across Indian states using Python-based data analytics and machine learning techniques.
-
-The objective of the project is to transform raw agricultural data into a clean, structured, and analytically useful dataset and then perform Exploratory Data Analysis (EDA) to identify important patterns related to crop production, agricultural yield, rainfall, cultivated area, fertilizer usage, pesticide usage, states, seasons, and yearly trends.
-
-The project is being developed as part of the **Machine Learning Data Analyst – Agribusiness Internship**.
+The project was developed as part of the Machine Learning Data Analyst – Agribusiness internship.
 
 ---
 
-## 🎯 Project Objectives
+## Project Objective
 
-The major objectives of this project are:
+The main objective of this project is to analyze agricultural data, identify meaningful patterns and relationships, and build a machine learning regression model for agricultural crop yield prediction.
 
-- Collect and understand agricultural crop-yield data.
-- Perform data cleaning and validation.
-- Handle inconsistent and invalid records.
-- Analyze categorical and numerical variables.
-- Study crop-wise agricultural performance.
-- Compare agricultural performance across Indian states.
-- Analyze seasonal patterns.
-- Identify year-wise agricultural trends.
-- Study correlations between agricultural variables.
-- Detect and investigate statistical outliers.
-- Perform Crop × Season analysis.
-- Perform State × Crop analysis.
-- Generate meaningful visual insights.
-- Prepare the dataset for future machine learning applications.
+The project covers:
+
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Statistical analysis
+- Data visualization
+- Machine learning model development
+- Model comparison
+- Hyperparameter optimization
+- Model evaluation
+- Prediction validation
+- Feature importance analysis
 
 ---
 
-# 📊 Dataset Overview
+## Dataset
 
-The project uses an agricultural crop-yield dataset containing records from Indian states.
+The dataset contains agricultural crop information from different states of India.
 
-### Final Dataset Statistics
-
-| Metric | Value |
-|---|---:|
-| Total Records | 19,685 |
-| Features | 10 |
-| Crops | 55 |
-| States | 30 |
-| Seasons | 6 |
-| Missing Values | 0 |
-| Duplicate Rows | 0 |
-| Negative Values | 0 |
-
----
-
-## 🧾 Dataset Features
+### Dataset Features
 
 | Feature | Description |
 |---|---|
-| `Crop` | Name of the agricultural crop |
-| `Crop_Year` | Year of the agricultural record |
-| `Season` | Agricultural season |
-| `State` | Indian state |
-| `Area` | Cultivated area |
-| `Production` | Total agricultural production |
-| `Annual_Rainfall` | Annual rainfall |
-| `Fertilizer` | Fertilizer usage |
-| `Pesticide` | Pesticide usage |
-| `Yield` | Agricultural yield |
+| Crop | Name of the agricultural crop |
+| Crop_Year | Year of cultivation |
+| Season | Agricultural cultivation season |
+| State | Indian state |
+| Area | Cultivated area |
+| Production | Crop production |
+| Annual_Rainfall | Annual rainfall |
+| Fertilizer | Fertilizer usage |
+| Pesticide | Pesticide usage |
+| Yield | Crop yield |
+
+The target variable for the machine learning model is:
+
+**Yield**
 
 ---
 
-# 🧹 Week 1 – Data Collection & Cleaning
+## Project Workflow
 
-During Week 1, the dataset was inspected and cleaned before performing exploratory analysis.
+### 1. Data Cleaning
 
-The cleaning workflow included:
+The dataset was inspected for:
 
-1. Dataset loading and structural inspection.
-2. Column and data-type verification.
-3. Missing-value analysis.
-4. Duplicate-record detection.
-5. Numerical-value validation.
-6. Identification of inconsistent production and yield records.
-7. Validation of extreme observations.
-8. Creation of the final cleaned dataset.
-
-The final cleaned dataset contains:
-
-**19,685 records × 10 features**
-
-The cleaned dataset was used as the input for Week 2 Exploratory Data Analysis.
-
----
-
-# 🔎 Week 2 – Exploratory Data Analysis
-
-Week 2 focuses on understanding the statistical structure and agricultural patterns present in the cleaned dataset.
-
-The EDA workflow includes:
-
-### 1. Dataset Structure Analysis
-
-- Shape
-- Columns
-- Data types
-- Descriptive statistics
 - Missing values
 - Duplicate records
-- Unique category counts
+- Negative values
+- Invalid production/yield combinations
+- Data consistency
 
-### 2. Categorical Analysis
+After cleaning, the final dataset contained:
 
-Analysis was performed for:
+**19,685 records and 10 features.**
 
-- Crops
-- States
-- Seasons
+---
 
-Frequency distributions were used to identify the most represented categories.
+### 2. Exploratory Data Analysis
 
-### 3. Numerical Distribution Analysis
+Exploratory Data Analysis was performed to understand:
 
-The following numerical variables were analyzed:
+- Crop distribution
+- State-wise agricultural production
+- Seasonal patterns
+- Year-wise trends
+- Crop yield variation
+- Production patterns
+- Correlation between numerical variables
+- Outliers and unusual observations
 
+Multiple visualizations were created using Python.
+
+---
+
+### 3. Machine Learning
+
+The machine learning problem was formulated as:
+
+**Supervised Learning → Regression**
+
+Target variable:
+
+**Yield**
+
+The following input features were used:
+
+- Crop
+- Crop_Year
+- Season
+- State
 - Area
-- Production
-- Annual Rainfall
+- Annual_Rainfall
 - Fertilizer
 - Pesticide
-- Yield
 
-Histograms and density plots were used to understand distributions, variability, skewness, and extreme values.
-
----
-
-# 🌾 Crop-wise Analysis
-
-Crop-level analysis was performed using:
-
-- Average Yield
-- Total Production
-- Number of Records
-
-This allows agricultural productivity to be compared separately from overall production scale.
-
-### Key Finding
-
-**Coconut recorded the highest average Yield at 8,652.0 in the analyzed dataset.**
-
-Coconut also recorded the highest total Production.
-
-These results demonstrate the importance of using both average productivity and aggregate production when comparing crops.
+Production was excluded from the predictive feature set because it has a direct structural relationship with area and yield and could make the prediction setup less realistic.
 
 ---
 
-# 🗺️ State-wise Analysis
+## Machine Learning Models
 
-State-level analysis was performed using:
+Three regression models were developed and compared:
 
-- Average Yield
-- Total Production
-- Number of Records
+### Linear Regression
 
-### Key Findings
+Used as the baseline regression model.
 
-**Goa recorded the highest average Yield at 354.78.**
+### Random Forest Regressor
 
-**Kerala recorded the highest total Production in the analyzed dataset.**
+An ensemble tree-based regression model used to capture nonlinear relationships.
 
-State-level differences may reflect variations in crop composition, cultivated area, climate, agricultural practices, and environmental conditions.
+### Gradient Boosting Regressor
 
----
-
-# 🌦️ Season-wise Analysis
-
-Six agricultural seasons were analyzed:
-
-- Kharif
-- Rabi
-- Whole Year
-- Summer
-- Autumn
-- Winter
-
-### Key Findings
-
-Kharif is the most represented season with **8,229 records**.
-
-Whole Year recorded the highest average Yield at **413.0** and also the highest total Production.
-
-Seasonal results were interpreted together with record counts to avoid misleading comparisons caused by unequal representation.
+An ensemble boosting model used to improve prediction performance by sequentially learning from previous errors.
 
 ---
 
-# 📅 Year-wise Trend Analysis
+## Data Preprocessing
 
-Year-wise analysis was performed for:
+Categorical variables were encoded using:
 
-- Total Production
-- Average Yield
-- Total Cultivated Area
-- Average Annual Rainfall
+**One-Hot Encoding**
 
-Temporal analysis helps identify changes in agricultural performance over time.
+Categorical features:
 
-However, observed trends are interpreted as associations rather than direct causal relationships because agricultural production can be affected by several interacting factors.
+- Crop
+- Season
+- State
 
----
+Numerical features were passed directly to the models.
 
-# 📈 Correlation Analysis
-
-Correlation analysis was performed on the numerical variables to understand their linear relationships.
-
-### Correlation with Yield
-
-| Variable | Correlation with Yield |
-|---|---:|
-| Production | 0.5708 |
-| Annual Rainfall | 0.0208 |
-| Fertilizer | 0.0029 |
-| Crop Year | 0.0025 |
-| Area | 0.0019 |
-| Pesticide | 0.0018 |
-
-### Major Observation
-
-Production shows the strongest positive linear relationship with Yield among the analyzed numerical variables.
-
-However, correlation does not imply causation.
-
-The weak linear correlation of rainfall, fertilizer, pesticide, and area with Yield does not necessarily mean that these variables are agriculturally unimportant. Their effects may be nonlinear, crop-specific, state-specific, or dependent on interactions with other variables.
+A Scikit-learn Pipeline and ColumnTransformer were used to keep preprocessing and modelling together.
 
 ---
 
-# ⚠️ Outlier Analysis
+## Model Evaluation
 
-Statistical outliers were identified using the **Interquartile Range (IQR) method**.
+The models were evaluated using:
 
-The IQR approach uses:
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
 
-- Q1 – First Quartile
-- Q3 – Third Quartile
-- IQR = Q3 − Q1
-- Lower Bound = Q1 − 1.5 × IQR
-- Upper Bound = Q3 + 1.5 × IQR
+### Initial Model Comparison
 
-### Outlier Summary
+| Model | MAE | RMSE | R² Score |
+|---|---:|---:|---:|
+| Linear Regression | 148.40 | 920.26 | 0.000046 |
+| Random Forest | 21.66 | 276.93 | 0.909447 |
+| Gradient Boosting | 12.72 | 161.57 | 0.969176 |
 
-| Variable | Outliers | Percentage |
-|---|---:|---:|
-| Area | 3,076 | 15.62% |
-| Production | 3,373 | 17.13% |
-| Annual Rainfall | 1,527 | 7.76% |
-| Fertilizer | 3,093 | 15.71% |
-| Pesticide | 3,036 | 15.42% |
-| Yield | 3,065 | 15.57% |
-
-The identified outliers were not automatically removed because extreme agricultural observations may represent genuine differences in cultivation scale, environmental conditions, or productivity.
-
-The outlier analysis is therefore treated as an analytical diagnostic rather than a direct data-deletion rule.
+The initial evaluation showed that Gradient Boosting produced the strongest test-set performance among the three models.
 
 ---
 
-# 🔬 Crop × Season Analysis
+## Hyperparameter Optimization
 
-A two-dimensional Crop × Season analysis was performed to investigate how crop performance varies across agricultural seasons.
+RandomizedSearchCV with 3-fold cross-validation was used to search for improved Gradient Boosting configurations.
 
-The analysis includes:
+The parameters explored included:
 
-- Record Count
-- Average Yield
-- Total Production
-- Total Area
-- Average Rainfall
+- Number of estimators
+- Learning rate
+- Maximum depth
+- Minimum samples split
+- Minimum samples leaf
 
-A minimum record threshold was considered when ranking combinations to avoid over-interpreting combinations supported by very few observations.
-
-This analysis provides a deeper view of crop-season behavior that cannot be identified through crop-level or season-level analysis alone.
+The final model was selected by comparing the tuned model with the original Gradient Boosting model using test-set performance.
 
 ---
 
-# 🧭 State × Crop Analysis
+## Model Validation
 
-State × Crop analysis was performed to understand regional crop specialization and productivity.
+The selected final model was evaluated on both training and testing data to examine generalization performance.
 
-The analysis evaluates:
+Additional validation included:
 
-- Record Count
-- Average Yield
-- Total Production
-- Total Area
-- Average Rainfall
-
-Combining State and Crop provides additional agricultural context because the performance of a crop can vary substantially between regions.
-
----
-
-# 🛠️ Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook / Google Colab
-- Git
-- GitHub
+- Actual vs Predicted Yield
+- Residual Distribution
+- Residuals vs Predicted Values
+- MAE
+- RMSE
+- R² Score
+- Training vs Testing performance
 
 ---
 
-# 📁 Project Structure
+## Feature Importance
+
+Feature importance was extracted from the final Gradient Boosting model to understand which input variables contributed most to the model's predictions.
+
+Feature importance represents model contribution and should not be interpreted as direct causal influence.
+
+---
+
+## Prediction Demonstration
+
+A real record from the cleaned dataset was selected to demonstrate the final model's prediction capability.
+
+The demonstration compares:
+
+- Actual Yield
+- Predicted Yield
+- Absolute Prediction Error
+
+The prediction result is stored in:
+
+`data/cleaned/sample_prediction.csv`
+
+---
+
+## Project Structure
 
 ```text
 Agribusiness-ML-Data-Analysis/
@@ -321,16 +233,21 @@ Agribusiness-ML-Data-Analysis/
 ├── data/
 │   └── cleaned/
 │
+├── models/
+│   └── final_crop_yield_model.pkl
+│
 ├── src/
 │   ├── data_cleaning.py
-│   └── eda_analysis.py
+│   ├── eda_analysis.py
+│   ├── modeling.py
+│   └── predict_yield.py
 │
 ├── visualizations/
 │   ├── week1/
-│   └── week2_eda/
+│   ├── week2_eda/
+│   └── Week 3 visualizations
 │
 ├── reports/
-│   └── Week2_EDA_Report.pdf
 │
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
